@@ -2,7 +2,6 @@ import React, {  useState } from 'react';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
 import Section from './Section/Section';
-import Notification from './Notification/Notification';
 
 export const App = () => {
   const [good, setGood] = useState(0);
